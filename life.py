@@ -48,8 +48,10 @@ def next_board_state(state):
                     if(height>r+x>=0 and width>c+y>=0 and state[r+x][c+y]==1 and not (x==0 and y==0)):
                         n=n+1
             # If ALIVE and HOSPITABLE    
-            if((n==2 or n==3) and (state[r][c]==1)):
+            if((n==2 or n==3) and (state[r][c]==1) and 0<r<height-1 and 0<c<width-1):
                 new_board[r][c] = 1
+            if((n==2 or n==3) and (state[r][c]==1) and (r == height-1 or c==width-1 or r == 0 or c == 0)):
+                new_board[r][c] = 0
             # If DEAD and HOSPITABLE
             if(n==3 and (state[r][c]==0)):
                 new_board[r][c] = 1
