@@ -5,3 +5,5 @@ This is a simple interface for the game of life that can be accessed using the c
 To play simply type: python game.py into your command prompt and a popup window should appear. To exit the program simply close the window.
 
 Inspired by Robert Heaton's programming projects: https://robertheaton.com/2018/07/20/project-2-game-of-life/
+
+![ezgif-2-78517a59b1](https://user-images.githubusercontent.com/99034740/163000340-b690791d-1ec4-4270-8f2e-cfc43c6433c9.gif)
