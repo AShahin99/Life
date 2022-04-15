@@ -83,16 +83,6 @@ def gen_life_board(life_board):
                 alive_count = alive_count + 1
             pygame.draw.rect(screen,colour,rect,0)
     draw_grid()
-    
-    counter = pygame.Rect(width-95,300,90,45)
-    pygame.draw.rect(screen,dark_grey,counter)
-    reg_font = pygame.font.Font(None, 25)
-    start_txt = reg_font.render("Count: {0}".format(alive_count), True, white)
-    screen.blit(start_txt,(610,315))
-    pygame.display.flip()
-
-
-    
     pygame.display.flip()
     return(life.next_board_state(life_board))
 
