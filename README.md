@@ -6,4 +6,4 @@ To play simply type: python game.py into your command prompt and a popup window 
 
 Inspired by Robert Heaton's programming projects: https://robertheaton.com/2018/07/20/project-2-game-of-life/
 
-![ezgif-2-78517a59b1](https://user-images.githubusercontent.com/99034740/163000340-b690791d-1ec4-4270-8f2e-cfc43c6433c9.gif)
+![ezgif-3-c4dc0e5bb7](https://user-images.githubusercontent.com/99034740/163608819-b0627745-45a7-440e-b887-2bc994ce07da.gif)
